@@ -7,45 +7,113 @@ body {
 	margin: 0 auto;
 	max-width: 600px;
 	padding: 20px;
-	background-color: #fff;
+	background-color: #F4E2DE;
 	border-radius: 5px;
 	box-shadow: 0 2px 5px rgba(0,0,0,.3);
+    
 }
 
 h1 {
 	text-align: center;
 	margin-bottom: 20px;
+    color: rgb(105, 104, 104);
+}
+p {
+  color: rgb(105, 104, 104);
+  font-size: 20px;
 }
 
 .seats {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+    color: white;
 }
-.seats {
-	display: flex;
-	
-	justify-content: center;
+.seats2 {
+  display: flex;
+  	flex-wrap: wrap;
+	justify-content: center
+
+}
+.seats3 {
+  display: flex;
+  	flex-wrap: wrap;
+	justify-content: center
+}
+.seats4 {
+  display: flex;
+  	flex-wrap: wrap;
+	justify-content: center
+}
+.seats5 {
+  display: flex;
+  	flex-wrap: wrap;
+	justify-content: center
 }
 
 
 .seat {
-	width: 55px;
-	height: 55px;
-	background-color: #19922f;
+	width: 30px;
+	height: 30px;
+	background-color: #a72f45;
 	margin: 3px;
 	border-radius: 5px;
 	cursor: pointer;
 }
 .seat1 {
-	width: 55px;
-	height: 55px;
-	background-color: #51e56c;
+	width: 30px;
+	height: 30px;
+	background-color: #a72f45;
 	margin: 3px;
 	border-radius: 5px;
 	cursor: pointer;
+    color: white;
 }
-
+.seat2 { 
+	width: 30px;
+	height: 30px;
+	background-color: #f34766;
+	margin: 3px;
+	border-radius: 5px;
+	cursor: pointer;
+    color: white;
+}
+.seat3 { 
+	width: 30px;
+	height: 30px;
+	background-color: #bd7b8e;
+	margin: 3px;
+	border-radius: 5px;
+	cursor: pointer;
+    color: white;
+}
+.seat4 { 
+	width: 30px;
+	height: 30px;
+	background-color: #bd7b8e;
+	margin: 3px;
+	border-radius: 5px;
+	cursor: pointer;
+    color: white;
+}
+.seat6 { 
+	width: 30px;
+	height: 30px;
+	background-color: #c97887;
+	margin: 3px;
+	border-radius: 5px;
+	cursor: pointer;
+    color: white;
+}
+.seat7 { 
+	width: 30px;
+	height: 30px;
+	background-color: #bb5164;
+	margin: 3px;
+	border-radius: 5px;
+	cursor: pointer;
+    color: white;
+}
 
 
 
@@ -65,7 +133,7 @@ h1 {
 }
 
 button {
-	background-color: #4CAF50;
+	background-color: #ca0025;
 	color: #fff;
 	font-size: 16px;
 	padding: 10px;
@@ -80,3 +148,55 @@ button:disabled {
 	cursor: default;
 }
 
+.txtseat:hover {
+     color: white;
+}
+.txtseat2:hover {
+     color: white;
+}
+
+.txtseat6:hover {
+     color: white;
+}
+
+.txtseat3:hover {
+     color: white;
+}
+
+.txtseat7:hover {
+     color: white;
+}
+
+.txtseat {
+    font-size: 12px;
+    color:  #a72f45;
+    padding: 4px;
+    margin-bottom: 10px;
+}
+.txtseat2 {
+    font-size: 12px;
+    color:  #f34766;
+    padding: 4px;
+    margin-bottom: 10px;
+}
+
+.txtseat6 {
+    font-size: 12px;
+    color:  #c97887;
+    padding: 4px;
+    margin-bottom: 10px;
+}
+
+.txtseat7 {
+    font-size: 12px;
+    color:  #bb5164;
+    padding: 4px;
+    margin-bottom: 10px;
+}
+
+.txtseat3 {
+    font-size: 12px;
+    color:  #bd7b8e;
+    padding: 4px;
+    margin-bottom: 10px;
+}
