@@ -212,5 +212,6 @@ button:disabled {
 .fileiras {
     position: relative;
     top: 10px;
-    color: rgb(105, 104, 104);
+    color: black;
 }
+
