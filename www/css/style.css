@@ -53,16 +53,16 @@ p {
 
 
 .seat {
-	width: 30px;
-	height: 30px;
+	width: 27px;
+	height: 27px;
 	background-color: #a72f45;
 	margin: 3px;
 	border-radius: 5px;
 	cursor: pointer;
 }
 .seat1 {
-	width: 30px;
-	height: 30px;
+	width: 27px;
+	height: 27px;
 	background-color: #a72f45;
 	margin: 3px;
 	border-radius: 5px;
@@ -70,8 +70,8 @@ p {
     color: white;
 }
 .seat2 { 
-	width: 30px;
-	height: 30px;
+	width: 27px;
+	height: 27px;
 	background-color: #f34766;
 	margin: 3px;
 	border-radius: 5px;
@@ -79,8 +79,8 @@ p {
     color: white;
 }
 .seat3 { 
-	width: 30px;
-	height: 30px;
+	width: 27px;
+	height: 27px;
 	background-color: #bd7b8e;
 	margin: 3px;
 	border-radius: 5px;
@@ -88,8 +88,8 @@ p {
     color: white;
 }
 .seat4 { 
-	width: 30px;
-	height: 30px;
+	width: 27px;
+	height: 27px;
 	background-color: #bd7b8e;
 	margin: 3px;
 	border-radius: 5px;
@@ -97,8 +97,8 @@ p {
     color: white;
 }
 .seat6 { 
-	width: 30px;
-	height: 30px;
+	width: 27px;
+	height: 27px;
 	background-color: #c97887;
 	margin: 3px;
 	border-radius: 5px;
@@ -106,8 +106,8 @@ p {
     color: white;
 }
 .seat7 { 
-	width: 30px;
-	height: 30px;
+	width: 27px;
+	height: 27px;
 	background-color: #bb5164;
 	margin: 3px;
 	border-radius: 5px;
@@ -150,6 +150,8 @@ button:disabled {
 
 .txtseat:hover {
      color: white;
+     text-align: center;
+     
 }
 .txtseat2:hover {
      color: white;
@@ -171,32 +173,44 @@ button:disabled {
     font-size: 12px;
     color:  #a72f45;
     padding: 4px;
-    margin-bottom: 10px;
+    bottom: 8px;
+    position: relative;
 }
 .txtseat2 {
     font-size: 12px;
     color:  #f34766;
     padding: 4px;
-    margin-bottom: 10px;
+    bottom: 8px;
+    position: relative;
 }
 
 .txtseat6 {
     font-size: 12px;
     color:  #c97887;
     padding: 4px;
-    margin-bottom: 10px;
+    bottom: 8px;
+    position: relative;
 }
 
 .txtseat7 {
     font-size: 12px;
     color:  #bb5164;
     padding: 4px;
-    margin-bottom: 10px;
+    bottom: 8px;
+    position: relative;
+    
 }
 
 .txtseat3 {
     font-size: 12px;
     color:  #bd7b8e;
     padding: 4px;
-    margin-bottom: 10px;
+    bottom: 8px;
+    position: relative;
+}
+
+.fileiras {
+    position: relative;
+    top: 10px;
+    color: rgb(105, 104, 104);
 }
