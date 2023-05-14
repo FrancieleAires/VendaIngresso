@@ -118,7 +118,7 @@ p {
 
 
 .seat.selected {
-	background-color: #28b4c8;
+	background-color: #8aefff;
 }
 
 .seat.occupied {
@@ -214,4 +214,15 @@ button:disabled {
     top: 10px;
     color: black;
 }
+.tela {
+    height: 23px;
+    width: 100%;
+    background-color: rgb(105, 104, 104);
+    color: white;
+}
+.texto1 {
+    text-align: center;
+    color: white;
+}
+
 

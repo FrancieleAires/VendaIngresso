@@ -18,5 +18,9 @@ button {
 	border: none;
 	border-radius: 5px;
 	cursor: pointer;
-    margin-left: 40%;
+    margin-left: 38%;
+}
+.obra1 {
+    position: relative;
+    left: 30%;
 }
