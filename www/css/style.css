@@ -224,5 +224,16 @@ button:disabled {
     text-align: center;
     color: white;
 }
-
+.botao3 {
+    background-color: #ca0025;
+	color: #fff;
+	font-size: 16px;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+    position: relative;
+    left: 40%;
+    
+}
 
