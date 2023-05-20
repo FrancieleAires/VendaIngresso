@@ -236,4 +236,34 @@ button:disabled {
     left: 40%;
     
 }
+.input{
+	width: 50%;
+	background-color: white;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	padding: 10px 20px ;
+	font-weight: 700;
+}
+.exibir{
+    position: relative;
+    left: 10px;
 
+
+}
+.finalizar{
+    position: absolute;
+    left: 280px;
+}
+.voltar {
+     background-color: #ca0025;
+	color: #fff;
+	font-size: 16px;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+    position: relative;
+    left: 65px;
+   
+}
